@@ -1,0 +1,1076 @@
+{
+  "schemaVersion": 2,
+  "brand": "Sleep Number",
+  "lastUpdated": "2026-06-25T03:11:30.851Z",
+  "sourceNotes": "Catalog updater ran with no active sources. Add URLs in scripts/sources.json.",
+  "metadata": {
+    "currency": "USD",
+    "locale": "en-US",
+    "timezone": "America/Chicago",
+    "priceDisclaimer": "Prices shown are estimates based on publicly available information and may not reflect current promotions, regional pricing, or in-store adjustments. Verify all prices before completing a sale."
+  },
+  "series": [
+    {
+      "id": "c-series",
+      "name": "c-Series",
+      "tagline": "Entry to adjustable comfort",
+      "description": "Dual air chambers, basic adjustable comfort. Great for guests or budget-conscious shoppers.",
+      "badge": "Entry",
+      "sortOrder": 1
+    },
+    {
+      "id": "p-series",
+      "name": "p-Series",
+      "tagline": "Advanced responsive support",
+      "description": "Enhanced foam layers and responsive comfort with SleepIQ technology.",
+      "badge": "Popular",
+      "sortOrder": 2
+    },
+    {
+      "id": "i-series",
+      "name": "i-Series",
+      "tagline": "Intelligent sleep technology",
+      "description": "Advanced biometric tracking, flippable top for personalized comfort, and premium materials.",
+      "badge": "Smart",
+      "sortOrder": 3
+    },
+    {
+      "id": "climate360",
+      "name": "Climate360",
+      "tagline": "Active heating and cooling",
+      "description": "Heats and cools each side independently. The ultimate personalized sleep environment.",
+      "badge": "Premium",
+      "sortOrder": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "c2-twin-xl",
+      "seriesId": "c-series",
+      "model": "c2",
+      "size": "Twin XL",
+      "retailPrice": 899,
+      "salePrice": 899,
+      "description": "Dual air chambers, adjustable comfort, great for single sleepers.",
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "entry",
+        "twin-xl",
+        "single"
+      ]
+    },
+    {
+      "id": "c2-full",
+      "seriesId": "c-series",
+      "model": "c2",
+      "size": "Full",
+      "retailPrice": 999,
+      "salePrice": 999,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c2-queen",
+      "seriesId": "c-series",
+      "model": "c2",
+      "size": "Queen",
+      "retailPrice": 1099,
+      "salePrice": 1099,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c2-king",
+      "seriesId": "c-series",
+      "model": "c2",
+      "size": "King",
+      "retailPrice": 1399,
+      "salePrice": 1399,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c2-cal-king",
+      "seriesId": "c-series",
+      "model": "c2",
+      "size": "California King",
+      "retailPrice": 1399,
+      "salePrice": 1399,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c4-twin-xl",
+      "seriesId": "c-series",
+      "model": "c4",
+      "size": "Twin XL",
+      "retailPrice": 1099,
+      "salePrice": 1099,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c4-full",
+      "seriesId": "c-series",
+      "model": "c4",
+      "size": "Full",
+      "retailPrice": 1199,
+      "salePrice": 1199,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c4-queen",
+      "seriesId": "c-series",
+      "model": "c4",
+      "size": "Queen",
+      "retailPrice": 1299,
+      "salePrice": 1299,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c4-king",
+      "seriesId": "c-series",
+      "model": "c4",
+      "size": "King",
+      "retailPrice": 1599,
+      "salePrice": 1599,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c4-cal-king",
+      "seriesId": "c-series",
+      "model": "c4",
+      "size": "California King",
+      "retailPrice": 1599,
+      "salePrice": 1599,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c6-twin-xl",
+      "seriesId": "c-series",
+      "model": "c6",
+      "size": "Twin XL",
+      "retailPrice": 1399,
+      "salePrice": 1399,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c6-full",
+      "seriesId": "c-series",
+      "model": "c6",
+      "size": "Full",
+      "retailPrice": 1499,
+      "salePrice": 1499,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c6-queen",
+      "seriesId": "c-series",
+      "model": "c6",
+      "size": "Queen",
+      "retailPrice": 1699,
+      "salePrice": 1699,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c6-king",
+      "seriesId": "c-series",
+      "model": "c6",
+      "size": "King",
+      "retailPrice": 1999,
+      "salePrice": 1999,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "c6-cal-king",
+      "seriesId": "c-series",
+      "model": "c6",
+      "size": "California King",
+      "retailPrice": 1999,
+      "salePrice": 1999,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "p5-queen",
+      "seriesId": "p-series",
+      "model": "p5",
+      "size": "Queen",
+      "retailPrice": 2399,
+      "salePrice": 2399,
+      "description": "SleepIQ technology, responsive comfort layers.",
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "p5-king",
+      "seriesId": "p-series",
+      "model": "p5",
+      "size": "King",
+      "retailPrice": 2999,
+      "salePrice": 2999,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "p5-cal-king",
+      "seriesId": "p-series",
+      "model": "p5",
+      "size": "California King",
+      "retailPrice": 2999,
+      "salePrice": 2999,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "p5-twin-xl",
+      "seriesId": "p-series",
+      "model": "p5",
+      "size": "Twin XL",
+      "retailPrice": 1799,
+      "salePrice": 1799,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "p6-queen",
+      "seriesId": "p-series",
+      "model": "p6",
+      "size": "Queen",
+      "retailPrice": 2799,
+      "salePrice": 2799,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "p6-king",
+      "seriesId": "p-series",
+      "model": "p6",
+      "size": "King",
+      "retailPrice": 3399,
+      "salePrice": 3399,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "p6-cal-king",
+      "seriesId": "p-series",
+      "model": "p6",
+      "size": "California King",
+      "retailPrice": 3399,
+      "salePrice": 3399,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "i8-queen",
+      "seriesId": "i-series",
+      "model": "i8",
+      "size": "Queen",
+      "retailPrice": 3799,
+      "salePrice": 3799,
+      "description": "Advanced biometric tracking, FlexFit compatible, flippable dual-sided top.",
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "i8-king",
+      "seriesId": "i-series",
+      "model": "i8",
+      "size": "King",
+      "retailPrice": 4499,
+      "salePrice": 4499,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "i8-cal-king",
+      "seriesId": "i-series",
+      "model": "i8",
+      "size": "California King",
+      "retailPrice": 4499,
+      "salePrice": 4499,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "i8-split-king",
+      "seriesId": "i-series",
+      "model": "i8",
+      "size": "Split King",
+      "retailPrice": 5199,
+      "salePrice": 5199,
+      "description": "Two Twin XL sides — dual adjustable comfort. Requires two FlexFit bases.",
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "split",
+        "requires-two-bases"
+      ]
+    },
+    {
+      "id": "i10-queen",
+      "seriesId": "i-series",
+      "model": "i10",
+      "size": "Queen",
+      "retailPrice": 4599,
+      "salePrice": 4599,
+      "description": "Premium features, enhanced cooling, advanced tracking.",
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "i10-king",
+      "seriesId": "i-series",
+      "model": "i10",
+      "size": "King",
+      "retailPrice": 5399,
+      "salePrice": 5399,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "i10-cal-king",
+      "seriesId": "i-series",
+      "model": "i10",
+      "size": "California King",
+      "retailPrice": 5399,
+      "salePrice": 5399,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "i10-split-king",
+      "seriesId": "i-series",
+      "model": "i10",
+      "size": "Split King",
+      "retailPrice": 6499,
+      "salePrice": 6499,
+      "description": "Two Twin XL sides — dual adjustable comfort. Requires two FlexFit bases.",
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "split",
+        "requires-two-bases"
+      ]
+    },
+    {
+      "id": "climate360-queen",
+      "seriesId": "climate360",
+      "model": "Climate360",
+      "size": "Queen",
+      "retailPrice": 7999,
+      "salePrice": 7999,
+      "description": "Heats and cools each side of the bed. Ultimate temperature control.",
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "premium",
+        "temperature-control"
+      ]
+    },
+    {
+      "id": "climate360-king",
+      "seriesId": "climate360",
+      "model": "Climate360",
+      "size": "King",
+      "retailPrice": 9499,
+      "salePrice": 9499,
+      "verificationRequired": true,
+      "confidenceScore": 0.6
+    },
+    {
+      "id": "climate360-cal-king",
+      "seriesId": "climate360",
+      "model": "Climate360",
+      "size": "California King",
+      "retailPrice": 9499,
+      "salePrice": 9499,
+      "verificationRequired": true,
+      "confidenceScore": 0.6
+    },
+    {
+      "id": "climate360-split-king",
+      "seriesId": "climate360",
+      "model": "Climate360",
+      "size": "Split King",
+      "retailPrice": 10999,
+      "salePrice": 10999,
+      "description": "Two Twin XL sides with independent heating and cooling. Requires two FlexFit bases.",
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "split",
+        "requires-two-bases",
+        "premium"
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "id": "none",
+      "category": "none",
+      "name": "None / Skip",
+      "description": "Skip this section.",
+      "price": 0
+    },
+    {
+      "id": "smart-base",
+      "category": "integrated-base",
+      "name": "Smart Base",
+      "description": "Integrated adjustable platform base with USB charging. Works with any mattress.",
+      "price": 1199,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "base",
+        "adjustable",
+        "integrated"
+      ]
+    },
+    {
+      "id": "flexfit-1",
+      "category": "adjustable-base",
+      "name": "FlexFit 1",
+      "description": "Head-only adjustable comfort. Connects to SleepIQ app.",
+      "price": 999,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "base",
+        "adjustable",
+        "head-only"
+      ]
+    },
+    {
+      "id": "flexfit-2",
+      "category": "adjustable-base",
+      "name": "FlexFit 2",
+      "description": "Head and foot adjustment, massage, and preset positions.",
+      "price": 1799,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "base",
+        "adjustable",
+        "head-foot"
+      ]
+    },
+    {
+      "id": "flexfit-3",
+      "category": "adjustable-base",
+      "name": "FlexFit 3",
+      "description": "Head, foot, and lumbar adjustment, wall-saver technology, under-bed lighting.",
+      "price": 2499,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "base",
+        "adjustable",
+        "premium",
+        "wall-saver"
+      ]
+    },
+    {
+      "id": "foundation-standard",
+      "category": "foundation",
+      "name": "Standard Foundation",
+      "description": "Non-adjustable flat support base. Required if not using adjustable or integrated base.",
+      "price": 299,
+      "verificationRequired": true,
+      "confidenceScore": 0.7
+    },
+    {
+      "id": "foundation-low",
+      "category": "foundation",
+      "name": "Low-Profile Foundation",
+      "description": "Lower profile flat base for platform bed feel.",
+      "price": 279,
+      "verificationRequired": true,
+      "confidenceScore": 0.7
+    },
+    {
+      "id": "hw-headboard-bracket",
+      "category": "hardware",
+      "name": "Headboard Bracket Kit",
+      "description": "Attaches most headboards to a Sleep Number adjustable base. Required when combining adjustable base with a headboard.",
+      "price": 109,
+      "verificationRequired": true,
+      "confidenceScore": 0.7,
+      "tags": [
+        "hardware",
+        "headboard",
+        "bracket"
+      ],
+      "recommendedWith": [
+        "flexfit-1",
+        "flexfit-2",
+        "flexfit-3"
+      ]
+    },
+    {
+      "id": "hw-footboard-bar",
+      "category": "hardware",
+      "name": "Footboard Solution Bar",
+      "description": "Allows use of a footboard with an adjustable base by bridging the gap. Required for footboard compatibility with adjustable bases.",
+      "price": 179,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "hardware",
+        "footboard",
+        "compatibility"
+      ],
+      "recommendedWith": [
+        "flexfit-1",
+        "flexfit-2",
+        "flexfit-3"
+      ]
+    },
+    {
+      "id": "hw-retainer-bar",
+      "category": "hardware",
+      "name": "Retainer Bar",
+      "description": "Prevents mattress from sliding on adjustable base. Strongly recommended for all adjustable base setups.",
+      "price": 99,
+      "verificationRequired": true,
+      "confidenceScore": 0.7,
+      "tags": [
+        "hardware",
+        "retainer",
+        "adjustable"
+      ],
+      "recommendedWith": [
+        "flexfit-1",
+        "flexfit-2",
+        "flexfit-3"
+      ]
+    },
+    {
+      "id": "hw-legs-standard",
+      "category": "hardware",
+      "name": "Modular Base Legs – Standard",
+      "description": "Standard height adjustable base legs (set of 4). Raises bed to standard height.",
+      "price": 79,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "hardware",
+        "legs",
+        "height"
+      ]
+    },
+    {
+      "id": "hw-legs-extended",
+      "category": "hardware",
+      "name": "Modular Base Legs – Extended",
+      "description": "Taller legs to raise the bed higher. Good for accessibility or under-bed storage.",
+      "price": 99,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "hardware",
+        "legs",
+        "height",
+        "tall"
+      ]
+    },
+    {
+      "id": "hw-legs-low",
+      "category": "hardware",
+      "name": "Modular Base Legs – Low Profile",
+      "description": "Lower legs for a closer-to-floor feel.",
+      "price": 79,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "hardware",
+        "legs",
+        "height",
+        "low"
+      ]
+    },
+    {
+      "id": "hw-remote",
+      "category": "hardware",
+      "name": "EzConnect Remote",
+      "description": "Replacement wireless remote for Sleep Number adjustable bases.",
+      "price": 149,
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "hardware",
+        "remote",
+        "replacement"
+      ]
+    },
+    {
+      "id": "hw-power-cord",
+      "category": "hardware",
+      "name": "Power Cord – Replacement",
+      "description": "Replacement power cord for Sleep Number bases or pumps.",
+      "price": 29,
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "hardware",
+        "power",
+        "replacement"
+      ]
+    },
+    {
+      "id": "hw-air-cap",
+      "category": "hardware",
+      "name": "Air Chamber Cap",
+      "description": "Replacement air chamber valve cap.",
+      "price": 14,
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "hardware",
+        "replacement",
+        "air-chamber"
+      ]
+    },
+    {
+      "id": "furn-bed-frame",
+      "category": "furniture",
+      "name": "Metal Bed Frame",
+      "description": "Basic metal support frame. Works with most Sleep Number sizes.",
+      "price": 99,
+      "verificationRequired": true,
+      "confidenceScore": 0.7,
+      "tags": [
+        "furniture",
+        "frame"
+      ]
+    },
+    {
+      "id": "furn-panel-headboard",
+      "category": "furniture",
+      "name": "Panel Headboard",
+      "description": "Classic panel headboard. Compatible with Sleep Number base system.",
+      "price": 499,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "furniture",
+        "headboard"
+      ]
+    },
+    {
+      "id": "furn-upholstered-headboard",
+      "category": "furniture",
+      "name": "Upholstered Headboard",
+      "description": "Fabric-wrapped upholstered headboard. Multiple color options available in store.",
+      "price": 799,
+      "verificationRequired": true,
+      "confidenceScore": 0.65,
+      "tags": [
+        "furniture",
+        "headboard",
+        "upholstered"
+      ]
+    },
+    {
+      "id": "furn-storage-bed",
+      "category": "furniture",
+      "name": "Storage Bed Base",
+      "description": "Platform bed with built-in drawers. Verify compatibility with chosen mattress and base.",
+      "price": 1299,
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "furniture",
+        "storage",
+        "platform"
+      ],
+      "warnings": [
+        "Verify adjustable base compatibility before selecting."
+      ]
+    },
+    {
+      "id": "furn-nightstand",
+      "category": "furniture",
+      "name": "Nightstand",
+      "description": "Matching bedroom nightstand.",
+      "price": 399,
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "furniture",
+        "nightstand"
+      ]
+    },
+    {
+      "id": "furn-dresser",
+      "category": "furniture",
+      "name": "Dresser",
+      "description": "Matching bedroom dresser.",
+      "price": 999,
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "furniture",
+        "dresser"
+      ]
+    },
+    {
+      "id": "pillow-comfortfit-classic",
+      "category": "pillow",
+      "name": "ComfortFit Classic Pillow",
+      "description": "Supportive pillow with balanced comfort.",
+      "price": 129,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "pillow-comfortfit-cooling",
+      "category": "pillow",
+      "name": "ComfortFit Cooling Pillow",
+      "description": "Cooling cover for hot sleepers.",
+      "price": 149,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "pillow-360-smart",
+      "category": "pillow",
+      "name": "360 Smart Pillow",
+      "description": "Tracks head movement and integrates with SleepIQ.",
+      "price": 199,
+      "verificationRequired": true,
+      "confidenceScore": 0.6,
+      "tags": [
+        "smart",
+        "sleep-iq"
+      ]
+    },
+    {
+      "id": "bedding-true-temp-sheets",
+      "category": "bedding",
+      "name": "True Temp Sheets",
+      "description": "Moisture-wicking, temperature-regulating sheet set.",
+      "price": 249,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "bedding-classic-sheets",
+      "category": "bedding",
+      "name": "Classic Sheets",
+      "description": "Everyday comfort sheet set.",
+      "price": 129,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "bedding-true-temp-blanket",
+      "category": "bedding",
+      "name": "True Temp Blanket",
+      "description": "Temperature-regulating blanket layer.",
+      "price": 179,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "bedding-mattress-pad",
+      "category": "bedding",
+      "name": "ComfortFit Mattress Pad",
+      "description": "Adds a soft comfort layer while protecting the mattress.",
+      "price": 149,
+      "verificationRequired": true,
+      "confidenceScore": 0.65
+    },
+    {
+      "id": "bedding-mattress-protector",
+      "category": "bedding",
+      "name": "Waterproof Mattress Protector",
+      "description": "Protects against spills and stains without affecting comfort.",
+      "price": 119,
+      "verificationRequired": true,
+      "confidenceScore": 0.7
+    },
+    {
+      "id": "plan-3yr",
+      "category": "protection-plan",
+      "name": "3-Year Protection Plan",
+      "description": "Basic accidental protection for mattress and base.",
+      "price": 149,
+      "verificationRequired": true,
+      "confidenceScore": 0.7
+    },
+    {
+      "id": "plan-5yr",
+      "category": "protection-plan",
+      "name": "5-Year Complete Protection",
+      "description": "Recommended coverage for mattress, base, and furniture.",
+      "price": 249,
+      "verificationRequired": true,
+      "confidenceScore": 0.7,
+      "badge": "Recommended"
+    },
+    {
+      "id": "plan-10yr",
+      "category": "protection-plan",
+      "name": "10-Year Premium Protection",
+      "description": "Longest available protection. Best value for high-end systems.",
+      "price": 399,
+      "verificationRequired": true,
+      "confidenceScore": 0.7
+    }
+  ],
+  "promos": [
+    {
+      "id": "smart-bed-savings",
+      "type": "automatic",
+      "name": "Smart Bed Savings Event",
+      "description": "Current promotional savings on 360 smart beds. Applied automatically when a qualifying mattress is selected.",
+      "discountAmount": 500,
+      "verificationRequired": true,
+      "confidenceScore": 0.5,
+      "conditions": {
+        "requiresProduct": true,
+        "requiresSeries": [
+          "i-series",
+          "climate360"
+        ],
+        "minimumSubtotal": 3000
+      }
+    },
+    {
+      "id": "flexfit-bundle",
+      "type": "automatic",
+      "name": "FlexFit Bundle Savings",
+      "description": "Save on a qualifying mattress + FlexFit adjustable base bundle.",
+      "discountAmount": 400,
+      "verificationRequired": true,
+      "confidenceScore": 0.5,
+      "conditions": {
+        "requiresProduct": true,
+        "requiresCategories": [
+          "adjustable-base"
+        ],
+        "minimumSubtotal": 2000
+      }
+    },
+    {
+      "id": "financing-36mo",
+      "type": "financing",
+      "name": "36-Month 0% Financing",
+      "description": "0% APR for 36 months on qualifying purchases. Subject to credit approval.",
+      "verificationRequired": true,
+      "confidenceScore": 0.55,
+      "conditions": {
+        "minimumSubtotal": 999,
+        "customerQualificationRequired": true
+      }
+    },
+    {
+      "id": "financing-48mo",
+      "type": "financing",
+      "name": "48-Month 0% Financing",
+      "description": "0% APR for 48 months on qualifying purchases. Subject to credit approval.",
+      "verificationRequired": true,
+      "confidenceScore": 0.55,
+      "conditions": {
+        "minimumSubtotal": 1999,
+        "customerQualificationRequired": true
+      }
+    },
+    {
+      "id": "military",
+      "type": "toggle",
+      "name": "Military Discount",
+      "description": "Use only with valid active-duty or veteran verification.",
+      "discountPercent": 10,
+      "customerQualificationRequired": true
+    },
+    {
+      "id": "first-responder",
+      "type": "toggle",
+      "name": "First Responder Discount",
+      "description": "Use only with valid first responder verification.",
+      "discountPercent": 10,
+      "customerQualificationRequired": true
+    },
+    {
+      "id": "teacher",
+      "type": "toggle",
+      "name": "Teacher / Educator Discount",
+      "description": "Use only with valid educator verification.",
+      "discountPercent": 10,
+      "customerQualificationRequired": true
+    },
+    {
+      "id": "manager-approval",
+      "type": "toggle",
+      "name": "Manager-Approved Override",
+      "description": "Use only when a manager explicitly approves the additional discount.",
+      "discountAmount": 200
+    },
+    {
+      "id": "price-match",
+      "type": "toggle",
+      "name": "Price Match",
+      "description": "Use only when price match requirements are verified and approved.",
+      "discountAmount": 150
+    }
+  ],
+  "hardwareRules": [
+    {
+      "id": "adj-base-headboard",
+      "trigger": {
+        "baseCategory": "adjustable-base",
+        "hwHeadboard": [
+          "sleep-number",
+          "third-party"
+        ]
+      },
+      "action": "recommend",
+      "level": "recommended",
+      "message": "Headboard Bracket Kit is recommended when attaching a headboard to an adjustable base.",
+      "recommendItems": [
+        "hw-headboard-bracket"
+      ]
+    },
+    {
+      "id": "adj-base-footboard",
+      "trigger": {
+        "baseCategory": "adjustable-base",
+        "hwFootboard": true
+      },
+      "action": "warn",
+      "level": "warning",
+      "message": "Compatibility warning: Footboards limit base adjustability. A Footboard Solution Bar may be required.",
+      "recommendItems": [
+        "hw-footboard-bar"
+      ]
+    },
+    {
+      "id": "adj-base-retainer",
+      "trigger": {
+        "baseCategory": "adjustable-base"
+      },
+      "action": "recommend",
+      "level": "recommended",
+      "message": "Retainer Bar is strongly recommended to prevent mattress sliding on adjustable base.",
+      "recommendItems": [
+        "hw-retainer-bar"
+      ]
+    },
+    {
+      "id": "third-party-headboard",
+      "trigger": {
+        "hwHeadboard": "third-party"
+      },
+      "action": "warn",
+      "level": "verify",
+      "message": "Third-party headboard: Verify bolt spacing, clearance, and bracket compatibility before completing the sale."
+    },
+    {
+      "id": "platform-bed-verify",
+      "trigger": {
+        "hwSupportType": "platform"
+      },
+      "action": "warn",
+      "level": "verify",
+      "message": "Platform bed / slats: Verify flat support, clearance, and compatibility with Sleep Number base."
+    },
+    {
+      "id": "no-base-selected",
+      "trigger": {
+        "baseId": "none"
+      },
+      "action": "suggest",
+      "level": "info",
+      "message": "No base selected. Sleep Number mattresses require proper support. Consider adding a foundation, integrated base, or adjustable base."
+    },
+    {
+      "id": "height-higher",
+      "trigger": {
+        "hwHeightPreference": "higher"
+      },
+      "action": "suggest",
+      "level": "info",
+      "message": "To raise the bed height, consider Extended Modular Base Legs.",
+      "recommendItems": [
+        "hw-legs-extended"
+      ]
+    },
+    {
+      "id": "height-lower",
+      "trigger": {
+        "hwHeightPreference": "lower"
+      },
+      "action": "suggest",
+      "level": "info",
+      "message": "For a lower profile bed, consider Low-Profile Modular Base Legs.",
+      "recommendItems": [
+        "hw-legs-low"
+      ]
+    },
+    {
+      "id": "split-king-two-bases",
+      "trigger": {
+        "productTags": [
+          "requires-two-bases"
+        ]
+      },
+      "action": "warn",
+      "level": "warning",
+      "message": "Split King/Cal King mattresses require TWO adjustable bases (one per side). Confirm base quantity."
+    }
+  ],
+  "compatibilityRules": [
+    {
+      "id": "split-requires-adjustable",
+      "condition": "Product size is Split King or Split Cal King",
+      "requirement": "Must use FlexFit adjustable base (x2). Standard foundations are not compatible.",
+      "level": "error"
+    },
+    {
+      "id": "storage-bed-adjustable",
+      "condition": "Storage bed base is selected",
+      "requirement": "Verify adjustable base compatibility with storage bed. Most platform storage beds are not compatible with adjustable bases.",
+      "level": "warning"
+    }
+  ],
+  "financing": {
+    "note": "Financing subject to credit approval. Terms may vary by promotion period. Verify current offers with store management before quoting.",
+    "options": [
+      {
+        "id": "36mo",
+        "label": "36 months 0% APR",
+        "months": 36,
+        "verificationRequired": true
+      },
+      {
+        "id": "48mo",
+        "label": "48 months 0% APR",
+        "months": 48,
+        "verificationRequired": true
+      },
+      {
+        "id": "60mo",
+        "label": "60 months 0% APR",
+        "months": 60,
+        "verificationRequired": true
+      }
+    ]
+  },
+  "delivery": {
+    "note": "Delivery and setup fees may apply. White-glove in-home setup available. Old mattress removal available in most areas. Verify current delivery schedule and fees at time of purchase.",
+    "verificationRequired": true
+  },
+  "sourceResults": []
+}
