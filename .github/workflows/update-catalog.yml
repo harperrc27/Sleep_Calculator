@@ -1,0 +1,33 @@
+name: Update Sleep Number catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 5:00 AM Central Daylight Time = 10:00 UTC (Mar–Nov)
+    # 5:00 AM Central Standard Time = 11:00 UTC (Nov–Mar)
+    # Adjust the cron hour when DST changes. Currently set for CDT.
+    - cron: '0 10 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run catalog updater
+        run: node scripts/update_catalog.mjs
+
+      - name: Commit catalog if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update Sleep Number catalog [skip ci]"
+          file_pattern: data/catalog.json

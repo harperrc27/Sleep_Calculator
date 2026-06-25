@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a2b4a" />
+  <meta name="description" content="Sleep Number in-store quote assistant. Build accurate quotes in under 60 seconds." />
+  <title>Sleep Number Quote Studio</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+
+    <header class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">In-store quote tool</p>
+        <h1>Sleep Number<br>Quote Studio</h1>
+        <p class="subcopy">Refresh before your shift, then build accurate quotes all day — even offline.</p>
+      </div>
+      <div class="hero-actions">
+        <button id="adminToggleBtn" class="ghost">Admin</button>
+        <button id="installBtn" class="ghost hidden">Install app</button>
+      </div>
+    </header>
+
+    <!-- Admin Panel (collapsible) -->
+    <section id="adminPanel" class="admin-panel hidden">
+      <div class="admin-grid" id="adminGrid">
+        <div class="admin-stat"><span class="admin-label">Catalog age</span><strong id="adminAge">—</strong></div>
+        <div class="admin-stat"><span class="admin-label">Products</span><strong id="adminProducts">—</strong></div>
+        <div class="admin-stat"><span class="admin-label">Promos</span><strong id="adminPromos">—</strong></div>
+        <div class="admin-stat"><span class="admin-label">Add-ons</span><strong id="adminAddons">—</strong></div>
+      </div>
+      <div id="adminHealth" class="admin-health"></div>
+      <button id="adminCloseBtn" class="secondary small">Close admin</button>
+    </section>
+
+    <!-- Catalog Status Bar -->
+    <section class="status-card">
+      <div class="status-info">
+        <span class="status-dot" id="statusDot"></span>
+        <strong id="catalogStatus">Loading catalog…</strong>
+        <p id="catalogMeta">Checking saved data.</p>
+      </div>
+      <button id="refreshCatalogBtn">Refresh catalog</button>
+    </section>
+
+    <main class="quote-layout">
+
+      <!-- Builder panel -->
+      <section class="panel builder-panel">
+        <div class="step-header">
+          <div>
+            <p class="eyebrow" id="stepCounter">Step 1 of 8</p>
+            <h2 id="stepTitle">Customer info</h2>
+          </div>
+          <div class="progress"><span id="progressBar"></span></div>
+        </div>
+
+        <div id="stepBody" class="step-body"></div>
+
+        <div class="nav-row">
+          <button id="backBtn" class="secondary">Back</button>
+          <button id="nextBtn">Continue</button>
+        </div>
+      </section>
+
+      <!-- Summary panel -->
+      <aside class="panel summary-panel">
+        <div class="summary-head">
+          <div>
+            <p class="eyebrow">Live quote</p>
+            <h2 id="totalDue">$0</h2>
+          </div>
+          <span class="savings-pill" id="savingsPill">$0 saved</span>
+        </div>
+
+        <div id="miniSummary" class="mini-summary"></div>
+
+        <div id="hwAlerts" class="hw-alerts"></div>
+
+        <div id="promoList" class="promo-list"></div>
+
+        <div class="summary-actions">
+          <button id="copyQuoteBtn" class="wide">Copy quote</button>
+          <button id="saveQuoteBtn" class="secondary wide">Save quote</button>
+          <button id="resetBtn" class="secondary wide">Start over</button>
+        </div>
+
+        <p class="verify-note">⚠ All prices marked "verify" must be confirmed before completing a sale.</p>
+      </aside>
+
+    </main>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

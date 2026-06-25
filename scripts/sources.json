@@ -1,0 +1,54 @@
+{
+  "notes": "Add public Sleep Number product or promo page URLs here. Each source will be fetched by the daily GitHub Action at 5 AM Central. Leave url blank or set enabled=false to skip a source while testing. Only public, unauthenticated pages. Do not add pages that require login or employee credentials.",
+  "sources": [
+    {
+      "name": "Sleep Number mattresses overview",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/beds",
+      "enabled": false,
+      "notes": "Set enabled=true after testing. Public category page."
+    },
+    {
+      "name": "Sleep Number smart beds",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/smart-beds",
+      "enabled": false,
+      "notes": "Set enabled=true after testing."
+    },
+    {
+      "name": "Sleep Number adjustable bases",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/adjustable-bases",
+      "enabled": false,
+      "notes": "Set enabled=true after testing."
+    },
+    {
+      "name": "Sleep Number bedding",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/bedding",
+      "enabled": false,
+      "notes": "Set enabled=true after testing."
+    },
+    {
+      "name": "Sleep Number pillows",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/pillows",
+      "enabled": false,
+      "notes": "Set enabled=true after testing."
+    },
+    {
+      "name": "Sleep Number parts and hardware",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/parts-and-hardware",
+      "enabled": false,
+      "notes": "Set enabled=true after testing."
+    },
+    {
+      "name": "Custom JSON feed (example)",
+      "type": "json",
+      "url": "",
+      "enabled": false,
+      "notes": "Replace with an approved JSON product feed URL if one becomes available."
+    }
+  ]
+}

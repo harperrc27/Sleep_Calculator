@@ -1,0 +1,12 @@
+{
+  "name": "Sleep Number Quote Studio",
+  "short_name": "SN Quotes",
+  "description": "In-store Sleep Number quote assistant. Fast, offline-capable, mobile-first.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#eef2f9",
+  "theme_color": "#1a2b4a",
+  "orientation": "any",
+  "categories": ["productivity", "utilities"],
+  "icons": []
+}
