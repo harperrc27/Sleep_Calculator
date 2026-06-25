@@ -1,0 +1,58 @@
+{
+  "sources": [
+    {
+      "name": "Sleep Number Deals Page",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/pages/deals",
+      "enabled": false,
+      "notes": "Public promotions and current sale information. Enable once you verify the URL is accessible."
+    },
+    {
+      "name": "Sleep Number Smart Beds",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/smart-beds",
+      "enabled": false,
+      "notes": "Main smart bed collection page. May contain structured product data (JSON-LD)."
+    },
+    {
+      "name": "Sleep Number Adjustable Bases",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/smart-adjustable-bases",
+      "enabled": false,
+      "notes": "FlexFit adjustable base collection page."
+    },
+    {
+      "name": "Sleep Number Financing",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/pages/financing",
+      "enabled": false,
+      "notes": "Financing terms and promotional APR information."
+    },
+    {
+      "name": "Sleep Number Accessories",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/accessories",
+      "enabled": false,
+      "notes": "Hardware, replacement parts, and accessories."
+    },
+    {
+      "name": "Sleep Number Bedding",
+      "type": "html",
+      "url": "https://www.sleepnumber.com/collections/bedding",
+      "enabled": false,
+      "notes": "Sheets, pillows, mattress protectors."
+    }
+  ],
+  "crawlSettings": {
+    "userAgent": "SleepNumberQuoteStudio/2.0 (+GitHub Actions catalog updater; public data only)",
+    "requestDelayMs": 1000,
+    "maxProductsPerSource": 100,
+    "respectRobotsTxt": true,
+    "notes": [
+      "Only enable sources you have verified are publicly accessible without authentication.",
+      "Do not add internal Sleep Number systems, employee portals, or login-protected pages.",
+      "The updater only reads public pages — it does not submit forms or bypass any access controls.",
+      "Test each URL manually before enabling to confirm it returns useful public product data."
+    ]
+  }
+}
