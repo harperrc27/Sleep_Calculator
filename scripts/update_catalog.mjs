@@ -166,10 +166,11 @@ function extractProductsFromHtml(html, source) {
 
 /* ── Extract promos from HTML text ── */
 function extractPromosFromHtml(html, source) {
-  /* Strip tags and scripts */
+  /* Strip tags and scripts.
+   * Use patterns that handle optional whitespace in end tags, e.g. </script > */
   const text = html
-    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<script[\s\S]*?<\/script\s*>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style\s*>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
     .replace(/\s+/g, ' ');
 
