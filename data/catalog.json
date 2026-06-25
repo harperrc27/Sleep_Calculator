@@ -1,0 +1,1825 @@
+{
+  "schemaVersion": 2,
+  "brandName": "Sleep Number",
+  "lastUpdated": "2026-06-25T03:18:19.317Z",
+  "metadata": {
+    "priceNote": "All prices shown are approximate and require verification. See sleepnumber.com for current pricing and active promotions.",
+    "disclaimer": "This tool is for internal sales team use only. Always verify final pricing, availability, and promotions before customer purchase.",
+    "version": "2.0.0",
+    "crawlNote": "Updater ran with no active sources. Add Sleep Number public URLs in scripts/sources.json and set enabled: true.",
+    "sourceResults": []
+  },
+  "mattresses": [
+    {
+      "id": "c2",
+      "name": "360 c2 Smart Bed",
+      "series": "c Series",
+      "tier": "Essential",
+      "description": "The essential smart bed. Adjustable firmness on each side and automatic snore response.",
+      "features": [
+        "Adjustable firmness for each side",
+        "SleepIQ technology — tracks sleep quality",
+        "Responsive Air technology",
+        "Automatic snore response (head elevation)"
+      ],
+      "tags": [
+        "entry-level",
+        "smart-bed",
+        "responsive-air"
+      ],
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 1099,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 1299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 1399,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 1799,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 1799,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 2199,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/c-series",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "c4",
+      "name": "360 c4 Smart Bed",
+      "series": "c Series",
+      "tier": "Essential",
+      "description": "An upgrade from the c2 with enhanced foot warming and pressure relief.",
+      "features": [
+        "Everything in c2",
+        "Dual-Zone Temp technology",
+        "Enhanced pressure-relief foam layer"
+      ],
+      "tags": [
+        "entry-level",
+        "smart-bed",
+        "foot-warming"
+      ],
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 1299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 1599,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 1699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 2199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 2199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 2699,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/c-series",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "p5",
+      "name": "360 p5 Smart Bed",
+      "series": "p Series",
+      "tier": "Performance",
+      "description": "Performance comfort with enhanced pressure relief and Responsive Air technology.",
+      "features": [
+        "Everything in c4",
+        "Advanced pressure-relief foam",
+        "Dual Comfort technology",
+        "SleepIQ health tracking"
+      ],
+      "tags": [
+        "performance",
+        "smart-bed",
+        "pressure-relief"
+      ],
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 1699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 1999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 2099,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 2699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 2699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 3299,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/p-series",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "p6",
+      "name": "360 p6 Smart Bed",
+      "series": "p Series",
+      "tier": "Performance",
+      "description": "Top of the p Series with advanced lumbar support and premium foam.",
+      "features": [
+        "Everything in p5",
+        "Variable comfort layer",
+        "Enhanced lumbar support layer",
+        "Premium performance foam"
+      ],
+      "tags": [
+        "performance",
+        "smart-bed",
+        "lumbar"
+      ],
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 2099,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 2399,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 2499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 3199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 3199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 3999,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/p-series",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "i5",
+      "name": "360 i5 Smart Bed",
+      "series": "i Series",
+      "tier": "Innovation",
+      "description": "Innovation series. Effortless self-adjusting comfort with premium materials.",
+      "features": [
+        "Everything in p6",
+        "Effortless Comfort — adjusts automatically as you move",
+        "SleepIQ enhanced insights",
+        "Premium foam layers"
+      ],
+      "tags": [
+        "innovation",
+        "smart-bed",
+        "self-adjusting",
+        "popular"
+      ],
+      "recommended": true,
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 2199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 2499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 2699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 3499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 3499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 4299,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/i-series",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "i6",
+      "name": "360 i6 Smart Bed",
+      "series": "i Series",
+      "tier": "Innovation",
+      "description": "Enhanced innovation series with better edge support and pressure mapping.",
+      "features": [
+        "Everything in i5",
+        "Edge-to-edge support",
+        "Advanced pressure mapping",
+        "Responsive comfort tech"
+      ],
+      "tags": [
+        "innovation",
+        "smart-bed",
+        "edge-support"
+      ],
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 2599,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 2999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 3199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 4199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 4199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 5199,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/i-series",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "i8",
+      "name": "360 i8 Smart Bed",
+      "series": "i Series",
+      "tier": "Innovation",
+      "description": "Top performer in the i Series. Premium comfort layers and advanced sleep science.",
+      "features": [
+        "Everything in i6",
+        "Advanced pressure relief",
+        "Dual-sided firmness control",
+        "SleepIQ health insights"
+      ],
+      "tags": [
+        "innovation",
+        "smart-bed",
+        "premium"
+      ],
+      "recommended": true,
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 3399,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 3799,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 3999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 5199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 5199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 6499,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/i-series",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "i10",
+      "name": "360 i10 Smart Bed",
+      "series": "i Series",
+      "tier": "Innovation",
+      "description": "The pinnacle of the i Series. Maximum comfort, most advanced smart features.",
+      "features": [
+        "Everything in i8",
+        "Maximum comfort layer thickness",
+        "Best-in-class pressure relief",
+        "Full SleepIQ health suite"
+      ],
+      "tags": [
+        "innovation",
+        "smart-bed",
+        "luxury",
+        "top-model"
+      ],
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 3999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 4499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 4699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 6199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 6199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 7799,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/i-series",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "climate360-i8",
+      "name": "Climate360 i8 Smart Bed",
+      "series": "Climate360",
+      "tier": "Climate",
+      "description": "Active heating AND cooling for both sides, independently controlled all night.",
+      "features": [
+        "Active heating AND cooling — both sides, all night",
+        "airCool + airWarm technology",
+        "SleepIQ health insights",
+        "Automatic snore response",
+        "All i8 features"
+      ],
+      "tags": [
+        "climate",
+        "smart-bed",
+        "heating",
+        "cooling",
+        "best-sleep-temp"
+      ],
+      "recommended": true,
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 4999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 5499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 5699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 7499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 7499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 9399,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/climate360-smart-beds",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "climate360-i10",
+      "name": "Climate360 i10 Smart Bed",
+      "series": "Climate360",
+      "tier": "Climate",
+      "description": "The ultimate Sleep Number experience. Climate control + maximum luxury comfort.",
+      "features": [
+        "Active heating AND cooling — both sides, all night",
+        "airCool + airWarm technology",
+        "Maximum comfort layer (i10 level)",
+        "SleepIQ health insights",
+        "Full smart home integration"
+      ],
+      "tags": [
+        "climate",
+        "smart-bed",
+        "heating",
+        "cooling",
+        "premium",
+        "top-of-line"
+      ],
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 5999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 6699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 6999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 9199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 9199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 11499,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.6,
+      "productUrl": "https://www.sleepnumber.com/collections/climate360-smart-beds",
+      "imageUrl": null,
+      "warnings": [],
+      "lastVerified": "2026-06-24"
+    },
+    {
+      "id": "ile",
+      "name": "360 Limited Edition iLE Smart Bed",
+      "series": "iLE",
+      "tier": "Luxury",
+      "description": "Limited Edition. Premium materials, exclusive finish, and comprehensive smart features.",
+      "features": [
+        "Exclusive premium materials",
+        "Full smart bed feature set",
+        "Limited availability — verify in store",
+        "All iLE-specific features"
+      ],
+      "tags": [
+        "luxury",
+        "limited-edition",
+        "smart-bed",
+        "exclusive"
+      ],
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 4499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 4999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 5299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 6999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 6999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 8799,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "confidenceScore": 0.5,
+      "productUrl": "https://www.sleepnumber.com/",
+      "imageUrl": null,
+      "warnings": [
+        "Limited edition — verify current availability before quoting."
+      ],
+      "lastVerified": "2026-06-24"
+    }
+  ],
+  "sizes": [
+    {
+      "id": "twin-xl",
+      "label": "Twin XL",
+      "description": "38\" × 80\" — best for single sleeper, teen, or guest room. Required for Split King pairs.",
+      "splitKing": false
+    },
+    {
+      "id": "full",
+      "label": "Full",
+      "description": "54\" × 75\" — good for single sleeper who wants more room.",
+      "splitKing": false
+    },
+    {
+      "id": "queen",
+      "label": "Queen",
+      "description": "60\" × 80\" — most popular size for couples.",
+      "splitKing": false
+    },
+    {
+      "id": "king",
+      "label": "King",
+      "description": "76\" × 80\" — maximum width, great for couples who want space.",
+      "splitKing": false
+    },
+    {
+      "id": "cal-king",
+      "label": "Cal King",
+      "description": "72\" × 84\" — narrower but longer than standard King, good for taller sleepers.",
+      "splitKing": false
+    },
+    {
+      "id": "split-king",
+      "label": "Split King",
+      "description": "Two Twin XL halves — each partner controls their own side independently. Requires compatible adjustable base.",
+      "splitKing": true,
+      "requiresAdjustableBase": true
+    }
+  ],
+  "bases": [
+    {
+      "id": "none",
+      "name": "No Sleep Number Base",
+      "type": "none",
+      "description": "Customer already has a suitable base, platform, or slat system.",
+      "price": 0,
+      "sizePricing": null,
+      "features": [],
+      "warnings": [
+        "Verify that third-party support provides adequate flat, firm, even support for Sleep Number mattress."
+      ],
+      "compatibleSizes": [
+        "twin-xl",
+        "full",
+        "queen",
+        "king",
+        "cal-king",
+        "split-king"
+      ],
+      "tags": [
+        "no-base"
+      ],
+      "productUrl": null
+    },
+    {
+      "id": "foundation",
+      "name": "Foundation",
+      "type": "foundation",
+      "description": "Non-adjustable foundation. Solid, low-profile base. No electronics.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 249,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 399,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 399,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 399,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "features": [
+        "Non-adjustable",
+        "Low profile",
+        "Compatible with most furniture"
+      ],
+      "warnings": [],
+      "compatibleSizes": [
+        "twin-xl",
+        "full",
+        "queen",
+        "king",
+        "cal-king",
+        "split-king"
+      ],
+      "tags": [
+        "foundation",
+        "non-adjustable"
+      ],
+      "productUrl": "https://www.sleepnumber.com/collections/foundations"
+    },
+    {
+      "id": "integrated-base",
+      "name": "Integrated Bed Base",
+      "type": "integrated",
+      "description": "Integrated non-adjustable base. Works as both foundation and bed frame. Under-bed storage available.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 599,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 799,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 1199,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "features": [
+        "Non-adjustable",
+        "Built-in frame — no separate frame needed",
+        "Under-bed storage drawer option",
+        "No box spring needed"
+      ],
+      "warnings": [],
+      "compatibleSizes": [
+        "twin-xl",
+        "full",
+        "queen",
+        "king",
+        "cal-king",
+        "split-king"
+      ],
+      "tags": [
+        "integrated",
+        "non-adjustable",
+        "storage"
+      ],
+      "productUrl": "https://www.sleepnumber.com/collections/foundations"
+    },
+    {
+      "id": "flexfit-1",
+      "name": "FlexFit 1 Smart Adjustable Base",
+      "type": "adjustable",
+      "description": "Entry-level adjustable base. Head and foot elevation. Works with Sleep Number app.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 599,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 799,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 1299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 1299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 1499,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "features": [
+        "Head elevation",
+        "Foot elevation",
+        "Wireless remote",
+        "App control",
+        "Zero-gravity preset"
+      ],
+      "warnings": [],
+      "compatibleSizes": [
+        "twin-xl",
+        "full",
+        "queen",
+        "king",
+        "cal-king",
+        "split-king"
+      ],
+      "tags": [
+        "adjustable",
+        "flexfit"
+      ],
+      "recommended": true,
+      "productUrl": "https://www.sleepnumber.com/collections/smart-adjustable-bases"
+    },
+    {
+      "id": "flexfit-2",
+      "name": "FlexFit 2 Smart Adjustable Base",
+      "type": "adjustable",
+      "description": "Wall-hugger design. Head, foot, and lumbar adjustment. Under-bed lighting.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 799,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 1299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 1699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 1699,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 1999,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "features": [
+        "Wall-hugger (moves back, not away from wall)",
+        "Head, foot, and lumbar adjustment",
+        "Under-bed lighting",
+        "USB charging ports",
+        "App control"
+      ],
+      "warnings": [],
+      "compatibleSizes": [
+        "twin-xl",
+        "full",
+        "queen",
+        "king",
+        "cal-king",
+        "split-king"
+      ],
+      "tags": [
+        "adjustable",
+        "flexfit",
+        "wall-hugger",
+        "popular"
+      ],
+      "recommended": true,
+      "productUrl": "https://www.sleepnumber.com/collections/smart-adjustable-bases"
+    },
+    {
+      "id": "flexfit-3",
+      "name": "FlexFit 3 Smart Adjustable Base",
+      "type": "adjustable",
+      "description": "Top-of-line adjustable base. Full adjustment, massage, snore response, dual split control.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 1199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 1499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 1899,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 2499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 2499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 2999,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "features": [
+        "Full head, foot, and lumbar adjustment",
+        "Massage (head and foot zones)",
+        "Under-bed lighting",
+        "USB charging ports",
+        "Zero-gravity + anti-snore presets",
+        "Snore response",
+        "Dual split control for King sizes",
+        "App + remote control"
+      ],
+      "warnings": [],
+      "compatibleSizes": [
+        "twin-xl",
+        "full",
+        "queen",
+        "king",
+        "cal-king",
+        "split-king"
+      ],
+      "tags": [
+        "adjustable",
+        "flexfit",
+        "massage",
+        "premium"
+      ],
+      "productUrl": "https://www.sleepnumber.com/collections/smart-adjustable-bases"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "classic-bed-frame",
+      "name": "Classic Bed Frame",
+      "category": "furniture",
+      "subcategory": "bed-frame",
+      "description": "Standard metal bed frame. Works with most Sleep Number mattress and base combinations.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 99,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 99,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 129,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 149,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 149,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 149,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "compatibleBases": [
+        "foundation",
+        "integrated-base",
+        "flexfit-1",
+        "flexfit-2",
+        "flexfit-3"
+      ],
+      "warnings": [
+        "Verify headboard/footboard attachment compatibility before use with adjustable bases."
+      ],
+      "tags": [
+        "frame",
+        "basic"
+      ]
+    },
+    {
+      "id": "upholstered-bed-grey",
+      "name": "Upholstered Smart Bed — Fog Grey",
+      "category": "furniture",
+      "subcategory": "upholstered-bed",
+      "description": "Premium upholstered bed designed specifically for Sleep Number smart beds. Integrated design.",
+      "sizePricing": {
+        "full": {
+          "regular": 1299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 1499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 1999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 1999,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "features": [
+        "Upholstered headboard included",
+        "Designed for FlexFit bases",
+        "No center support needed"
+      ],
+      "compatibleBases": [
+        "flexfit-1",
+        "flexfit-2",
+        "flexfit-3",
+        "integrated-base",
+        "foundation"
+      ],
+      "warnings": [],
+      "tags": [
+        "furniture",
+        "upholstered",
+        "premium"
+      ]
+    },
+    {
+      "id": "upholstered-bed-charcoal",
+      "name": "Upholstered Smart Bed — Charcoal",
+      "category": "furniture",
+      "subcategory": "upholstered-bed",
+      "description": "Premium upholstered bed in Charcoal. Designed specifically for Sleep Number smart beds.",
+      "sizePricing": {
+        "full": {
+          "regular": 1299,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 1499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 1999,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 1999,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "features": [
+        "Upholstered headboard included",
+        "Designed for FlexFit bases",
+        "No center support needed"
+      ],
+      "compatibleBases": [
+        "flexfit-1",
+        "flexfit-2",
+        "flexfit-3",
+        "integrated-base",
+        "foundation"
+      ],
+      "warnings": [],
+      "tags": [
+        "furniture",
+        "upholstered",
+        "premium"
+      ]
+    },
+    {
+      "id": "storage-bed",
+      "name": "Storage Smart Bed",
+      "category": "furniture",
+      "subcategory": "storage-bed",
+      "description": "Built-in storage drawers under the bed. Foundation included. No additional base needed.",
+      "sizePricing": {
+        "queen": {
+          "regular": 1899,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 2499,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 2499,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "features": [
+        "Under-bed storage drawers",
+        "Built-in foundation",
+        "Upholstered headboard"
+      ],
+      "compatibleBases": [
+        "none"
+      ],
+      "includesBase": true,
+      "warnings": [
+        "This furniture includes its own foundation. Do not add a separate base."
+      ],
+      "tags": [
+        "furniture",
+        "storage",
+        "all-in-one"
+      ]
+    }
+  ],
+  "hardware": [
+    {
+      "id": "headboard-bracket-kit",
+      "name": "Headboard Bracket Kit",
+      "category": "hardware",
+      "description": "Attaches a headboard to FlexFit adjustable bases. Required when using a headboard with any adjustable base.",
+      "price": 89,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.7,
+      "tags": [
+        "hardware",
+        "headboard",
+        "bracket"
+      ],
+      "requiredWith": [
+        "flexfit-1",
+        "flexfit-2",
+        "flexfit-3"
+      ],
+      "usedFor": "headboard-attachment",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    },
+    {
+      "id": "retainer-bar",
+      "name": "Retainer Bar",
+      "category": "hardware",
+      "description": "Prevents the mattress from sliding on adjustable bases. Recommended for all adjustable base setups.",
+      "price": 59,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.7,
+      "tags": [
+        "hardware",
+        "retainer",
+        "bar"
+      ],
+      "recommended": true,
+      "requiredWith": [
+        "flexfit-1",
+        "flexfit-2",
+        "flexfit-3"
+      ],
+      "usedFor": "mattress-retention",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    },
+    {
+      "id": "modular-base-legs-standard",
+      "name": "Modular Base Legs — Standard Height",
+      "category": "hardware",
+      "description": "Standard-height replacement or additional legs for modular bases. Adjusts bed height.",
+      "price": 49,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.6,
+      "tags": [
+        "hardware",
+        "legs",
+        "height"
+      ],
+      "usedFor": "height-adjustment",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    },
+    {
+      "id": "modular-base-legs-tall",
+      "name": "Modular Base Legs — Tall",
+      "category": "hardware",
+      "description": "Tall legs to raise bed height. Use when customer wants bed higher than standard.",
+      "price": 59,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.6,
+      "tags": [
+        "hardware",
+        "legs",
+        "height",
+        "raise"
+      ],
+      "usedFor": "height-raise",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    },
+    {
+      "id": "modular-base-legs-low",
+      "name": "Modular Base Legs — Low Profile",
+      "category": "hardware",
+      "description": "Low-profile legs to lower bed height. Use when customer wants bed lower.",
+      "price": 49,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.6,
+      "tags": [
+        "hardware",
+        "legs",
+        "height",
+        "lower"
+      ],
+      "usedFor": "height-lower",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    },
+    {
+      "id": "remote-control",
+      "name": "SleepIQ Remote Control",
+      "category": "hardware",
+      "description": "Replacement or additional wireless remote for FlexFit adjustable bases.",
+      "price": 79,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.6,
+      "tags": [
+        "hardware",
+        "remote",
+        "replacement"
+      ],
+      "usedFor": "base-control",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    },
+    {
+      "id": "power-cord",
+      "name": "Replacement Power Cord",
+      "category": "hardware",
+      "description": "Replacement power cord for Sleep Number smart beds.",
+      "price": 29,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.5,
+      "tags": [
+        "hardware",
+        "power",
+        "replacement",
+        "parts"
+      ],
+      "usedFor": "power-supply",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    },
+    {
+      "id": "air-chamber-cap",
+      "name": "Air Chamber Cap",
+      "category": "hardware",
+      "description": "Replacement cap for Sleep Number air chamber. Prevents air loss.",
+      "price": 19,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.5,
+      "tags": [
+        "hardware",
+        "air-chamber",
+        "replacement",
+        "parts"
+      ],
+      "usedFor": "air-retention",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    },
+    {
+      "id": "hose-kit",
+      "name": "Air Hose Kit",
+      "category": "hardware",
+      "description": "Replacement air hose for connecting the pump to the air chamber.",
+      "price": 29,
+      "priceLabel": "Verify",
+      "confidenceScore": 0.5,
+      "tags": [
+        "hardware",
+        "hose",
+        "replacement",
+        "parts"
+      ],
+      "usedFor": "air-connection",
+      "productUrl": "https://www.sleepnumber.com/collections/accessories"
+    }
+  ],
+  "bedding": [
+    {
+      "id": "true-temp-pillow",
+      "name": "True Temp Pillow",
+      "category": "pillow",
+      "description": "Temperature-balancing pillow. Works with Climate360 or alone. Standard and king sizes.",
+      "sizePricing": {
+        "standard": {
+          "regular": 99,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 119,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "tags": [
+        "pillow",
+        "temperature",
+        "popular"
+      ],
+      "recommended": true,
+      "productUrl": "https://www.sleepnumber.com/collections/pillows"
+    },
+    {
+      "id": "original-pillow",
+      "name": "Sleep Number Original Pillow",
+      "category": "pillow",
+      "description": "Adjustable-fill pillow. Add or remove fill for personalized loft and support.",
+      "sizePricing": {
+        "standard": {
+          "regular": 79,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 89,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "tags": [
+        "pillow",
+        "adjustable-fill"
+      ],
+      "productUrl": "https://www.sleepnumber.com/collections/pillows"
+    },
+    {
+      "id": "true-temp-sheets",
+      "name": "True Temp Sheets Set",
+      "category": "bedding",
+      "description": "37.5 technology temperature-balancing sheets. Set includes flat, fitted, and pillowcases.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 229,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 249,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 279,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 319,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 319,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 399,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "tags": [
+        "bedding",
+        "sheets",
+        "temperature",
+        "popular"
+      ],
+      "recommended": true,
+      "productUrl": "https://www.sleepnumber.com/collections/sheets"
+    },
+    {
+      "id": "mattress-protector",
+      "name": "Mattress Protector",
+      "category": "bedding",
+      "description": "Waterproof, breathable mattress protector. Protects your investment.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 89,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 99,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 119,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 149,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 149,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "split-king": {
+          "regular": 189,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "tags": [
+        "bedding",
+        "protector",
+        "waterproof"
+      ],
+      "productUrl": "https://www.sleepnumber.com/collections/mattress-protectors"
+    },
+    {
+      "id": "comforter-down-alt",
+      "name": "Down Alternative Comforter",
+      "category": "bedding",
+      "description": "All-season down alternative comforter. Hypoallergenic fill.",
+      "sizePricing": {
+        "twin-xl": {
+          "regular": 149,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "full": {
+          "regular": 179,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "queen": {
+          "regular": 199,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "king": {
+          "regular": 249,
+          "sale": null,
+          "priceLabel": "Verify"
+        },
+        "cal-king": {
+          "regular": 249,
+          "sale": null,
+          "priceLabel": "Verify"
+        }
+      },
+      "tags": [
+        "bedding",
+        "comforter"
+      ],
+      "productUrl": "https://www.sleepnumber.com/collections/comforters"
+    }
+  ],
+  "protectionPlans": [
+    {
+      "id": "plan-none",
+      "name": "No Protection Plan",
+      "description": "No additional coverage.",
+      "price": 0,
+      "durationYears": 0,
+      "tags": []
+    },
+    {
+      "id": "plan-5yr",
+      "name": "5-Year Bed Protection Plan",
+      "description": "Covers mechanical failures, pump issues, and remote defects for 5 years.",
+      "price": null,
+      "priceLabel": "Verify with associate",
+      "durationYears": 5,
+      "covers": [
+        "Mechanical failures",
+        "Pump/motor issues",
+        "Remote defects",
+        "Air chamber defects"
+      ],
+      "tags": [
+        "protection",
+        "warranty"
+      ],
+      "productUrl": "https://www.sleepnumber.com/"
+    },
+    {
+      "id": "plan-5yr-base",
+      "name": "5-Year FlexFit Base Protection Plan",
+      "description": "Covers mechanical failures of FlexFit adjustable base for 5 years.",
+      "price": null,
+      "priceLabel": "Verify with associate",
+      "durationYears": 5,
+      "covers": [
+        "Base motor/actuator failures",
+        "Remote/control defects",
+        "Massage motor",
+        "Lighting"
+      ],
+      "requiredBaseTypes": [
+        "adjustable"
+      ],
+      "tags": [
+        "protection",
+        "warranty",
+        "base"
+      ],
+      "productUrl": "https://www.sleepnumber.com/"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "seasonal-sale",
+      "name": "Seasonal Sale",
+      "description": "Current seasonal promotion — savings may apply to select smart beds.",
+      "type": "toggle",
+      "discountType": "verify",
+      "discountAmount": null,
+      "discountPercent": null,
+      "verificationRequired": true,
+      "confidenceScore": 0.5,
+      "stackable": null,
+      "requiredCategories": [
+        "mattress"
+      ],
+      "excludedCategories": [],
+      "customerQualificationRequired": false,
+      "sourceUrl": "https://www.sleepnumber.com/pages/deals",
+      "notes": "Check current promotions page before quoting. Amount varies by promotion."
+    },
+    {
+      "id": "free-flexfit-bundle",
+      "name": "Free FlexFit Base Offer",
+      "description": "Free FlexFit 1 base with qualifying smart bed purchase (when applicable).",
+      "type": "toggle",
+      "discountType": "free-item",
+      "freeItem": "flexfit-1",
+      "verificationRequired": true,
+      "confidenceScore": 0.4,
+      "stackable": null,
+      "requiredCategories": [
+        "mattress"
+      ],
+      "requiredMinimum": null,
+      "customerQualificationRequired": false,
+      "sourceUrl": "https://www.sleepnumber.com/pages/deals",
+      "notes": "Verify this promotion is currently active before applying."
+    },
+    {
+      "id": "financing-0pct",
+      "name": "Special Financing — 0% APR",
+      "description": "0% APR financing for qualified buyers. Term and minimum purchase may vary.",
+      "type": "toggle",
+      "discountType": "financing",
+      "discountAmount": null,
+      "verificationRequired": true,
+      "confidenceScore": 0.5,
+      "stackable": true,
+      "customerQualificationRequired": true,
+      "sourceUrl": "https://www.sleepnumber.com/pages/financing",
+      "notes": "Customer must qualify through Sleep Number financing. Verify current term."
+    },
+    {
+      "id": "trade-in",
+      "name": "Trade-In Credit",
+      "description": "Credit toward purchase when customer trades in their old mattress.",
+      "type": "toggle",
+      "discountType": "credit",
+      "discountAmount": null,
+      "verificationRequired": true,
+      "confidenceScore": 0.4,
+      "stackable": null,
+      "customerQualificationRequired": true,
+      "sourceUrl": "https://www.sleepnumber.com/pages/deals",
+      "notes": "Verify trade-in program is active and confirm credit amount."
+    },
+    {
+      "id": "military-discount",
+      "name": "Military / First Responder Discount",
+      "description": "Discount for verified military or first responder status.",
+      "type": "toggle",
+      "discountType": "percent",
+      "discountPercent": 10,
+      "verificationRequired": true,
+      "confidenceScore": 0.5,
+      "stackable": null,
+      "customerQualificationRequired": true,
+      "sourceUrl": "https://www.sleepnumber.com/pages/deals",
+      "notes": "Customer must verify status. Confirm current discount amount and stackability."
+    },
+    {
+      "id": "price-match",
+      "name": "Price Match / Manager Discount",
+      "description": "Manual custom discount applied with manager approval.",
+      "type": "manual",
+      "discountType": "custom",
+      "discountAmount": null,
+      "verificationRequired": true,
+      "confidenceScore": 1,
+      "customerQualificationRequired": true,
+      "notes": "Enter approved amount in the custom discount field below."
+    }
+  ],
+  "hardwareRules": [
+    {
+      "id": "adjustable-headboard-bracket",
+      "condition": {
+        "baseType": "adjustable",
+        "headboardPlan": [
+          "new-sleep-number",
+          "new-third-party",
+          "existing-third-party"
+        ]
+      },
+      "recommendation": {
+        "level": "required",
+        "text": "Headboard Bracket Kit is required",
+        "reason": "All FlexFit adjustable bases need the headboard bracket kit to safely attach any headboard.",
+        "suggestedProductId": "headboard-bracket-kit"
+      }
+    },
+    {
+      "id": "adjustable-retainer-bar",
+      "condition": {
+        "baseType": "adjustable"
+      },
+      "recommendation": {
+        "level": "recommended",
+        "text": "Retainer Bar is strongly recommended",
+        "reason": "Prevents the mattress from shifting when the adjustable base moves.",
+        "suggestedProductId": "retainer-bar"
+      }
+    },
+    {
+      "id": "adjustable-footboard-warning",
+      "condition": {
+        "baseType": "adjustable",
+        "hasFootboard": true
+      },
+      "recommendation": {
+        "level": "warning",
+        "text": "Adjustable base + footboard — verify compatibility",
+        "reason": "Most traditional footboards are not compatible with adjustable bases. The base needs room to flex at the foot end."
+      }
+    },
+    {
+      "id": "adjustable-rails-warning",
+      "condition": {
+        "baseType": "adjustable",
+        "hasSideRails": true
+      },
+      "recommendation": {
+        "level": "warning",
+        "text": "Side rails with adjustable base — verify compatibility",
+        "reason": "Standard side rails may interfere with adjustable base movement. Verify clearance and attachment method."
+      }
+    },
+    {
+      "id": "third-party-furniture-verify",
+      "condition": {
+        "furnitureScenario": "third-party"
+      },
+      "recommendation": {
+        "level": "verify",
+        "text": "Third-party furniture — verify compatibility",
+        "reason": "Check bolt spacing, clearance, weight rating, and bracket compatibility with Sleep Number bed system."
+      }
+    },
+    {
+      "id": "split-king-support",
+      "condition": {
+        "sizeId": "split-king",
+        "baseId": "none"
+      },
+      "recommendation": {
+        "level": "warning",
+        "text": "Split King requires compatible adjustable base or dual foundation",
+        "reason": "Split King is two Twin XL halves and needs proper per-side support. Recommend FlexFit base per side."
+      }
+    },
+    {
+      "id": "height-raise",
+      "condition": {
+        "heightConcern": "higher"
+      },
+      "recommendation": {
+        "level": "recommended",
+        "text": "Tall modular legs to raise bed height",
+        "reason": "Customer requested higher bed. Check tall modular leg option.",
+        "suggestedProductId": "modular-base-legs-tall"
+      }
+    },
+    {
+      "id": "height-lower",
+      "condition": {
+        "heightConcern": "lower"
+      },
+      "recommendation": {
+        "level": "recommended",
+        "text": "Low-profile legs to lower bed height",
+        "reason": "Customer requested lower bed. Check low-profile modular leg option.",
+        "suggestedProductId": "modular-base-legs-low"
+      }
+    },
+    {
+      "id": "platform-verify",
+      "condition": {
+        "furnitureScenario": "platform-slats"
+      },
+      "recommendation": {
+        "level": "verify",
+        "text": "Platform/slat system — verify flat support",
+        "reason": "Sleep Number air beds require flat, even, gapless support. Verify slat spacing does not exceed recommended maximum (typically ≤ 2 inches)."
+      }
+    }
+  ],
+  "compatibilityRules": [
+    {
+      "id": "split-king-requires-twin-xl-pair",
+      "description": "Split King uses two Twin XL mattresses and typically two Twin XL FlexFit bases.",
+      "when": {
+        "sizeId": "split-king"
+      },
+      "note": "Quote will reflect Split King pricing which covers both halves."
+    },
+    {
+      "id": "storage-bed-no-separate-base",
+      "description": "Storage Smart Bed includes its own foundation — no separate base should be added.",
+      "when": {
+        "furnitureId": "storage-bed"
+      },
+      "note": "Storage bed includes foundation. Remove any separately selected base."
+    }
+  ],
+  "financing": {
+    "provider": "Sleep Number / TD Bank",
+    "note": "Financing subject to credit approval. Terms vary by current promotion. See associate for details.",
+    "commonTerms": [
+      "24 months",
+      "36 months",
+      "60 months"
+    ],
+    "sourceUrl": "https://www.sleepnumber.com/pages/financing"
+  },
+  "delivery": {
+    "note": "White Glove Delivery and setup typically included or available. Verify current delivery offer.",
+    "includes": [
+      "Delivery to room of choice",
+      "Setup and assembly",
+      "Haul away of old mattress (when offered)"
+    ],
+    "sourceUrl": "https://www.sleepnumber.com/pages/delivery"
+  }
+}

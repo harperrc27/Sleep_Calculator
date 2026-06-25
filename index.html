@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#00234b" />
+  <meta name="description" content="Sleep Number sales quote assistant — build accurate quotes in under 60 seconds." />
+  <title>Sleep Number Quote Studio</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ──────────────────────────────────────────────────────────────────────────
+     APP SHELL
+────────────────────────────────────────────────────────────────────────── -->
+<div id="app">
+
+  <!-- ── TOP BAR ─────────────────────────────────────────────────────────── -->
+  <header class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-brand">
+        <span class="brand-logo-text">sleep<strong>number</strong></span>
+        <span class="topbar-subtitle">Quote Studio</span>
+      </div>
+      <div class="topbar-actions">
+        <button id="installBtn" class="btn btn-ghost btn-sm hidden" aria-label="Install app">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 16l-5-5 1.4-1.4L11 13.2V4h2v9.2l2.6-3.6L17 11l-5 5z"/><path d="M5 20h14"/></svg>
+          Install
+        </button>
+        <button id="adminBtn" class="btn btn-ghost btn-sm" aria-label="Catalog admin">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M20 12a8 8 0 00-8-8 8 8 0 00-8 8 8 8 0 008 8 8 8 0 008-8z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── SCREEN: HOME ───────────────────────────────────────────────────── -->
+  <div class="screen active" id="screen-home">
+    <div class="home-hero">
+      <div class="home-hero-content">
+        <p class="eyebrow">Daily quote tool</p>
+        <h1>Quote Studio</h1>
+        <p class="hero-sub">Refresh once, then build complete quotes instantly — even offline.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Catalog Status Card -->
+      <div class="status-card" id="catalogStatusCard">
+        <div class="status-card-left">
+          <span class="status-dot" id="statusDot"></span>
+          <div>
+            <strong id="catalogStatus">Loading…</strong>
+            <p id="catalogMeta" class="status-meta">Checking saved data.</p>
+          </div>
+        </div>
+        <button id="refreshCatalogBtn" class="btn btn-secondary btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M1 4v6h6"/><path d="M23 20v-6h-6"/><path d="M20.49 9A9 9 0 005.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 013.51 15"/></svg>
+          Refresh catalog
+        </button>
+      </div>
+
+      <!-- Action Cards -->
+      <div class="home-actions">
+        <button class="action-card action-card-primary" id="newQuoteBtn">
+          <div class="action-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          </div>
+          <div>
+            <strong>New Quote</strong>
+            <p>Start a fresh customer quote</p>
+          </div>
+          <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <button class="action-card" id="savedQuotesBtn">
+          <div class="action-icon action-icon-muted">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+          </div>
+          <div>
+            <strong>Saved Quotes</strong>
+            <p id="savedQuoteCount">No saved quotes</p>
+          </div>
+          <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+
+      <!-- Saved Quotes List (hidden by default) -->
+      <div id="savedQuotesList" class="saved-quotes-list hidden"></div>
+
+      <!-- Quick Tips -->
+      <div class="tips-card">
+        <p class="eyebrow">Quick tips</p>
+        <ul class="tips-list">
+          <li>Refresh catalog before heading to the sales floor</li>
+          <li>Works fully offline after first load</li>
+          <li>Hardware wizard helps prevent missing parts</li>
+          <li>Copy quote button creates a shareable text summary</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SCREEN: QUOTE WIZARD ───────────────────────────────────────────── -->
+  <div class="screen" id="screen-quote">
+    <!-- Sticky Summary Bar (mobile) -->
+    <div class="sticky-summary" id="stickySummary">
+      <div class="sticky-summary-inner">
+        <div class="sticky-total">
+          <span class="sticky-amount" id="stickyTotal">$0</span>
+          <span class="sticky-label">est. total</span>
+        </div>
+        <div class="sticky-savings" id="stickySavings"></div>
+        <button class="btn btn-ghost btn-sm" id="summaryToggleBtn">Details</button>
+      </div>
+    </div>
+
+    <div class="quote-layout">
+      <!-- Step Panel -->
+      <section class="panel step-panel">
+        <div class="step-header">
+          <div class="step-meta">
+            <p class="eyebrow" id="stepCounter">Step 1 of 9</p>
+            <h2 id="stepTitle">Customer info</h2>
+            <p class="step-subtitle" id="stepSubtitle"></p>
+          </div>
+          <div class="progress-wrap">
+            <div class="progress-track">
+              <div class="progress-fill" id="progressBar" style="width:11%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="stepBody" class="step-body" role="main"></div>
+
+        <!-- Hardware Recommendations (shows in furniture step) -->
+        <div id="hardwareRecs" class="hardware-recs hidden"></div>
+
+        <div class="nav-row">
+          <button id="backBtn" class="btn btn-secondary" disabled>Back</button>
+          <button id="nextBtn" class="btn btn-primary">Continue →</button>
+        </div>
+      </section>
+
+      <!-- Sidebar Summary (desktop) -->
+      <aside class="panel summary-panel" id="summaryPanel">
+        <div class="summary-head">
+          <div>
+            <p class="eyebrow">Live quote</p>
+            <div class="summary-total" id="summaryTotal">$0</div>
+          </div>
+          <div class="savings-badge" id="savingsBadge"></div>
+        </div>
+
+        <div id="summaryLines" class="summary-lines"></div>
+
+        <div id="promoLines" class="promo-lines"></div>
+
+        <div id="warningLines" class="warning-lines"></div>
+
+        <div class="summary-actions">
+          <button id="copyQuoteBtn" class="btn btn-secondary wide">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+            Copy quote
+          </button>
+          <button id="saveQuoteBtn" class="btn btn-secondary wide">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><polyline points="17 21 17 13 7 13"/><polyline points="7 3 7 8 15 8"/></svg>
+            Save quote
+          </button>
+          <button id="resetBtn" class="btn btn-danger-ghost wide">Start over</button>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- ── SCREEN: SUMMARY (Customer-facing) ────────────────────────────── -->
+  <div class="screen" id="screen-summary">
+    <div class="container">
+      <div class="summary-screen-header">
+        <button class="btn btn-ghost btn-sm" id="summaryBackBtn">← Back to quote</button>
+        <div class="summary-screen-actions">
+          <button id="copySummaryBtn" class="btn btn-secondary btn-sm">Copy</button>
+          <button id="printSummaryBtn" class="btn btn-ghost btn-sm">Print</button>
+        </div>
+      </div>
+
+      <div class="customer-summary-card" id="customerSummaryCard">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SCREEN: ADMIN ─────────────────────────────────────────────────── -->
+  <div class="screen" id="screen-admin">
+    <div class="container">
+      <div class="admin-header">
+        <button class="btn btn-ghost btn-sm" id="adminBackBtn">← Back</button>
+        <h2>Catalog Health</h2>
+      </div>
+      <div id="adminBody" class="admin-body">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+</div><!-- /#app -->
+
+<!-- Toast notification -->
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+<script src="app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+name: Update Sleep Number quote catalog
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_commit:
+        description: 'Commit even if catalog unchanged'
+        required: false
+        default: 'false'
+  schedule:
+    # GitHub Actions uses UTC.
+    # 5:00 AM Central Daylight Time  = 10:00 UTC  (March–November)
+    # 5:00 AM Central Standard Time  = 11:00 UTC  (November–March)
+    # Using 11:00 UTC covers both — runs at 5 AM CST / 6 AM CDT.
+    # Change to '0 10 * * *' for DST-exact timing.
+    - cron: '0 11 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run catalog updater
+        run: node scripts/update_catalog.mjs
+        env:
+          NODE_ENV: production
+
+      - name: Commit catalog update (if changed)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh Sleep Number quote catalog [skip ci]"
+          file_pattern: data/catalog.json
+          commit_user_name: "Sleep Quote Studio Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "Sleep Quote Studio Bot <actions@github.com>"

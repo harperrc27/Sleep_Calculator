@@ -1,0 +1,23 @@
+# Deployment artifacts
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+
+# The source zip is archived, not needed in deployment
+*.zip
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.production
