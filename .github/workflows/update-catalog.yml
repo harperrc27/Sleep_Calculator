@@ -9,10 +9,10 @@ on:
         default: 'false'
   schedule:
     # GitHub Actions uses UTC.
-    # 5:00 AM Central Daylight Time  = 10:00 UTC  (March–November)
-    # 5:00 AM Central Standard Time  = 11:00 UTC  (November–March)
-    # Using 11:00 UTC covers both — runs at 5 AM CST / 6 AM CDT.
-    # Change to '0 10 * * *' for DST-exact timing.
+    # Central Standard Time (CST) = UTC−6  →  5 AM CST = 11:00 UTC
+    # Central Daylight Time  (CDT) = UTC−5  →  5 AM CDT = 10:00 UTC
+    # Setting 11:00 UTC: exact at 5 AM CST (winter), one hour late at 6 AM CDT (summer).
+    # For exact 5 AM year-round, automate cron switching or accept the one-hour drift in summer.
     - cron: '0 11 * * *'
 
 permissions:
